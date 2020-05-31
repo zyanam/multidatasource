@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "org.example.multi.config.PersistenceConfig",
+      "sourceMethod": "primaryDataSource()"
+    },
+    {
+      "name": "spring.second-datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "org.example.multi.config.PersistenceConfig",
+      "sourceMethod": "secondDataSource()"
+    },
+    {
+      "name": "spring.third-datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "org.example.multi.config.PersistenceConfig",
+      "sourceMethod": "thirdDataSource()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
